@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="505dp"
+        android:hint="Pseudo ou Adresse Mail : "
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="565dp"
+        android:hint="Mot de Passe : "
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        />
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/remember_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="se souvenir de moi"
+        android:layout_marginTop="615dp"
+        android:layout_marginLeft="230dp"
+        android:gravity="center_vertical"/>
+
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="380dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="Se connecter"
+        />
+</RelativeLayout>
