@@ -74,7 +74,7 @@ public class CreateAccount extends AppCompatActivity {
                 else{
 
                     loadingBar.setTitle("Création du compte");
-                    loadingBar.setMessage("Attendez peandant que ns vérifions les informations");
+                    loadingBar.setMessage("Patientez pendant que nous vérifions les informations");
                     loadingBar.setCanceledOnTouchOutside(false);
                     loadingBar.show();
 
