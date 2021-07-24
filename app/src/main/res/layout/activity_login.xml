@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="505dp"
-        android:hint="Pseudo ou Adresse Mail : "
+        android:hint="Adresse Mail : "
         android:inputType="textEmailAddress"
         android:textStyle="bold"
         />
@@ -48,7 +48,7 @@
 
 
     <Button
-        android:id="@+id/create_btn"
+        android:id="@+id/login_btn"
         android:layout_width="380dp"
         android:layout_height="65dp"
         android:layout_centerHorizontal="true"

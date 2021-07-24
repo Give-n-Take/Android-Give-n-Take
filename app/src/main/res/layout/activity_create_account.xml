@@ -19,33 +19,22 @@
 
 
     <EditText
+        android:id="@+id/register_mail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
-        android:hint="Pseudo : "
-        android:inputType="text"
-        android:textStyle="bold"
-        android:id="@+id/register_pseudo"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="505dp"
+        android:layout_marginTop="460dp"
         android:hint="Adresse Mail : "
         android:inputType="textEmailAddress"
-        android:textStyle="bold"
-        android:id="@+id/register_mail"
-        />
+        android:textStyle="bold" />
+
     <EditText
+        android:id="@+id/register_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="565dp"
+        android:layout_marginTop="500dp"
         android:hint="Mot de Passe : "
         android:inputType="textPassword"
-        android:textStyle="bold"
-        android:id="@+id/register_password"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/create_btn"
